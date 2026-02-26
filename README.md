@@ -1,3 +1,5 @@
+<img src="https://github.com/raktim74/msgQ/blob/dev/img/msgQ_logo.png" alt="Logo" width="200" height="100">
+
 # msgQ - A Lite Message Queue
 
 msgQ is a simple and lightweight message queue implementation in Python. It provides a basic message queue system with the following features:
