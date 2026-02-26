@@ -9,13 +9,38 @@ msgQ is a simple and lightweight message queue implementation in Python. It prov
 - Support for message offset tracking
 - Support for message persistence
 
-## How to use locally
 
-- Clone this in your local
-- Create a virtual environment
-- Install the required dependencies
-- Run the producer
-- Run the consumer
+## Run Locally
+
+Clone the project
+```bash
+  git clone https://github.com/raktim74/msgQ.git
+```
+
+Install dependencies
+```bash
+  pip install -r requirements.txt
+```
+Start the producer
+```bash
+  python3 producer.py
+```
+Start the consumer
+```bash
+  python3 consumer.py
+```
+Create the topic (optional)
+```bash
+  python3 settings.py
+```
+- Create a folder msgQ_data in the root directory
 - Use constants.py to change the values
 
 
+## Authors
+
+- [@raktim74](https://www.github.com/raktim74) Raktim Nath
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
