@@ -3,7 +3,7 @@ from settings import Settings
 import time
 from constants import Constants as C
 
-class Consumer:
+class Consumer3:
     def __init__(self, topic: str, group_id: str, data_dir: str = C.DATA_DIR):
         self.topic = topic
         self.group_id = group_id
@@ -23,4 +23,4 @@ class Consumer:
             else:
                 time.sleep(0.5)
 
-Consumer(C.TOPIC, C.GROUP_ID).consumer_trigger() #Call the consumer trigger
+Consumer3(C.TOPIC2, C.GROUP_ID).consumer_trigger() #Call the consumer trigger
