@@ -1,5 +1,6 @@
 class Constants:
     TOPIC = "data-stream"
+    TOPIC2 = "data-stream-2"
     GROUP_ID = "group-data-stream"
     DATA_DIR = "./msgQ_data"
     MAX_MESSAGES = 1 #No of messages per set; value cannot be 0
