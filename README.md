@@ -27,9 +27,9 @@ Start the producer
 ```bash
   python3 producer.py
 ```
-Start the consumer
+Start the consumer(s)
 ```bash
-  python3 consumer.py
+  python3 consumer1.py, consumer2.py, ....
 ```
 Create the topic (optional)
 ```bash
@@ -37,6 +37,11 @@ Create the topic (optional)
 ```
 - Create a folder msgQ_data in the root directory
 - Use constants.py to change the values
+- Modify the consumer1, consumer2, ... etc and producer (topic name) to test for multiple topics
+
+## How it works?
+
+![Diagram](https://github.com/raktim74/msgQ/blob/master/img/draw.io/msgQ.svg)
 
 
 ## Authors
@@ -45,4 +50,4 @@ Create the topic (optional)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+[MIT](https://choosealicense.com/licenses/mit/)
