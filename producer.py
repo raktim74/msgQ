@@ -20,7 +20,7 @@ class Producer:
         """
         for i in range(5):
             msg_id = str(uuid.uuid4())
-            result = Settings().produce(self.topic, msg_id, f"Message {i}: My name is raktim!")
+            result = Settings().produce(self.topic, msg_id, f"Message {i}: Hello brother, I heard there are some discussion going on in the other topic!")
             print(f"Produced: {result}")
             time.sleep(1)
 
@@ -28,7 +28,7 @@ def run_producer():
     """
         Run the producer
     """
-    producer = Producer(C.TOPIC)
+    producer = Producer(C.TOPIC2)
     producer.producer_trigger()
 
 
